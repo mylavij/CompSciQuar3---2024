@@ -3,7 +3,7 @@
  * Date: 3-22-24
  */
 
-import java.util.*;
+/****import java.util.*;
 
 public class DigitsSum {
     
@@ -30,4 +30,10 @@ public class DigitsSum {
         input.close();
 
     }
+
+	@Override
+	public String toString() {
+		return "DigitsSum []";
+	}
 }
+*/

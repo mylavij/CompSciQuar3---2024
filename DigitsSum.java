@@ -3,37 +3,34 @@
  * Date: 3-22-24
  */
 
-/****import java.util.*;
+ import java.util.*;
 
-public class DigitsSum {
-    
-    public static void main(String[] args){
+public class DigitsSum{
 
-        int numFinal = 0;
+  public static void main(String[] args){
+  int num = 0;
+  int numLength = 0;
+  int sumFinal = 0;
+  String i = "";
 
-        Scanner input = new Scanner(System.in);
+  Scanner input = new Scanner(System.in);
 
-  		System.out.print("Enter a positive integer: ");
-  		int num = input.nextInt();
+  System.out.print("Enter a positive integer: ");
+  num = input.nextInt();
 
-  		String numStr = " " + num;
-  		int numLength = numStr.length();
+  String numStr = "" + num;
+  numLength = numStr.length();
 
-  		for(int a = 0; a < numLength; a++)
-        {
-    		String i = numStr.substring(a, a + 1);
-    	    numFinal += Integer.valueOf(i);
-  		}
+  for(int j = 0; j < numLength; j++){
 
-  		System.out.println("The sum of the digits is: " + numFinal);
+    i = numStr.substring(j, j + 1);
+    sumFinal += Integer.valueOf(i);
 
-        input.close();
 
-    }
+  }
 
-	@Override
-	public String toString() {
-		return "DigitsSum []";
-	}
+  System.out.println("The sum of the digits is: " + sumFinal);
+
+  input.close();
+  }
 }
-*/

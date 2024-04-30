@@ -25,6 +25,7 @@ public class GameOfTwentyOne {
         rand1 = (int)(10*(Math.random())-1);
         rand2 = (int)(10*(Math.random())-1);
         sum = rand1 + rand2;
+        
         System.out.println("You have a " +rand1 +" and a " + rand2 + " for a total of " + sum);
         System.out.print("Enter a 1 if you want another card or any other number for no card: ");
         option = input.nextInt();

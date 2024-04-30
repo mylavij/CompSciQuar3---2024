@@ -13,6 +13,7 @@ public class NumbersSum {
         int sum = 0;
 
         Scanner input = new Scanner(System.in);
+        
         System.out.print("Enter an integer value: ");
         number = input.nextInt();
         System.out.println(number);
